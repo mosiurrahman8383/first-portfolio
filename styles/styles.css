@@ -1,0 +1,49 @@
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 800 */
+
+body{
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+
+/* Nav releted styles */
+nav{
+    display: flex;
+}
+/* .nav-bar{
+    display: flex;
+} */
+ nav > ul{
+    display: flex;
+
+ }
+.nav-title{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+nav li{
+    /* display: flex; */
+    list-style: none;
+    margin-right: 50px;
+
+ 
+
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
+.btn-primary{
+    /* height: 64px;
+    width: 150px; */
+    background-color: #FD6E0A;
+    color: white;
+}

@@ -1,7 +1,16 @@
-/* // <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 300 to 800 */
+*{
+    margin: 0;
+}
+
+
+
+ /* // <uniquifier>: Use a unique and descriptive class name //
+// <weight>: Use a value from 300 to 800 // */
 
 body{
+
+   
+
   font-family: "Open Sans", serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
@@ -18,6 +27,8 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding:  52px  0 0 0;
+    margin:0 226px;
 
 }
 /* .nav-bar{
@@ -71,4 +82,56 @@ nav a{
 .header{
 
     background-color: #FFF8F3;
+    background-image: url(../assets/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  
+
+
+}
+
+
+/* Title releted */
+
+.banner{
+    padding: 30px 30px 0px 226px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-contant{
+    max-width: 500px;
+}
+
+ .profile-pic{
+    width: 500px;
+}
+
+.banner-gretting{
+    font-size: 45px;
+    font-weight: 500;
+    padding: 10px 0;
+    color: #474747;
+}
+.banner-title{
+    font-size: 85px;
+    padding: 5px 0;
+    color: #181818;
+    font-weight: 700;
+}
+.banner-des{
+    color: #757575;
+    font-size: 18px;
+    padding: 20px 0 30px 0;
+}
+
+#btn-Download{
+    margin-right: 30px;
+}
+
+#btn-contact{
+    background-color: #FFF8F3;
+    color: #FD6E0A;
+    border: 2px solid #FD6E0A;
 }

@@ -165,6 +165,8 @@ nav a {
 
 main section {
     margin-top: 130px;
+    /* margin: 100px ; */
+    
 }
 
 /* about section */
@@ -234,20 +236,41 @@ main section {
 
 #Resume-section-title {
     text-align: center;
+
+}
+
+.resume-container{
+    display: flex;
+    gap: 50px;
+    
+    margin: 100px 200px;
 }
 
 .resume-title {
     color: #474747 ;
+    font-size: 30px;
+    margin-bottom: 30px ;
 }
 
 .resume-item-title {
     color:#474747 ;
+    font-size: 25px;
+    padding-bottom: 10px;
 }
 
 .resume-item-institute {
     color: #757575 ;
+    font-size: 20px;
+    padding-bottom: 8px;
 }
 
 .resume-item-des {
     color: #757575 ;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+.download-CV{
+    text-align: center;
+  
 }

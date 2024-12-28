@@ -162,6 +162,10 @@ nav a {
 
 /* Main section styles */
 
+main{
+    margin-top: 130px;
+}
+
 /* about section */
 
 .about{
@@ -186,17 +190,6 @@ nav a {
 
 }
 
-.skills{
-    height: 350px;
-    width: 250px;
-    
-    border: 2px solid  #474747;
-    margin: 30px 10px;
-    /* color: #FFFFFF; */
-    /* box-shadow: #474747; */
-    text-align: left;
-    
-}
 
 #sec-des{
     padding: 0 350px;
@@ -205,21 +198,33 @@ nav a {
 .skill-container{
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
+    align-items: center;
     margin: 0 200px;
+    gap: 24px;
    
 }
+
+.skills{
+    height: 350px;
+    width: 250px;
+    color: #FFF; 
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.1);
+    text-align: left;
+    padding: 30px;
+    border-radius: 5px;
+}
+
 .skill-title{
     color: #181818;
-    padding: 0 0 10px 30px;
+    padding: 0 0 10px ;
 }
 
 .skill-des{
     color: #757575;
-    padding-left: 30px;
+
     padding-top: 20px;
 }
 
 .skill-img{
-    padding: 30px 0 20px 30px;
+    padding: 30px 0 20px ;
 }

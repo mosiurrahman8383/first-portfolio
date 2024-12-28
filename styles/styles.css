@@ -310,13 +310,19 @@ main section {
     padding-right: 30px;
 }
 
-/* .form-sec{
+.form-sec input[type="text"],input[type="email"], textarea{
     display: block;
+    margin-bottom: 30px;
+    padding: 18px 35px;
+    width: 100%;
+    border-radius: 5px;
+    border: 0;
+    background-color: #FFF;
 }
-
+/* 
 .message-me{
     display: block;
-} */
+}
 
 label{
     display: block;
@@ -342,4 +348,4 @@ textarea{
 
 .foot-btn{
 
-}
+} */

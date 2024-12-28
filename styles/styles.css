@@ -177,3 +177,49 @@ nav a {
     display: flex;
     justify-content: space-around;
 }
+
+
+/* Section What I do */
+
+.What{
+    text-align: center;
+
+}
+
+.skills{
+    height: 350px;
+    width: 250px;
+    
+    border: 2px solid  #474747;
+    margin: 30px 10px;
+    /* color: #FFFFFF; */
+    /* box-shadow: #474747; */
+    text-align: left;
+    
+}
+
+#sec-des{
+    padding: 0 350px;
+}
+
+.skill-container{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin: 0 200px;
+   
+}
+.skill-title{
+    color: #181818;
+    padding: 0 0 10px 30px;
+}
+
+.skill-des{
+    color: #757575;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.skill-img{
+    padding: 30px 0 20px 30px;
+}

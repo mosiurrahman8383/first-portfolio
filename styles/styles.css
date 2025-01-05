@@ -1,10 +1,12 @@
-* {
+/* * {
     margin: 0;
+} */
+
+.hide{
+    display: none;
 }
-
-
-
-/* // <uniquifier>: Use a unique and descriptive class name //
+    
+    /* // <uniquifier>: Use a unique and descriptive class name //
 // <weight>: Use a value from 300 to 800 // */
 
 body {
@@ -42,10 +44,10 @@ body {
 /* Nav releted styles */
 nav {
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
     padding: 52px 0 0 0;
-    margin: 0 226px;
+    margin: 0 200px;
 
 }
 
@@ -107,6 +109,7 @@ nav a {
     background-image: url(../assets/images/header_bg.png), url('../assets/images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right, top left;
+    width: 100%;
     /* height: 722px; */
 
 
@@ -194,8 +197,8 @@ main section {
 }
 
 
-#sec-des {
-    padding: 0 350px;
+#what-i-do-description {
+    padding: 30px 150px;
 }
 
 .skill-container {
@@ -208,8 +211,8 @@ main section {
 }
 
 .skills {
-    height: 350px;
-    width: 250px;
+    /* height: 350px;
+    width: 250px; */
     color: #FFF;
     box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.1);
     text-align: left;
@@ -349,3 +352,22 @@ textarea{
 .foot-btn{
 
 } */
+
+
+/* For small device */
+
+@media screen and (max-width: 576px) {
+    .skill-container{
+        display: block;
+        margin: 0 40px;
+        /* padding: auto; */
+        
+    }
+    .skills{
+        margin-top: 24px;
+    }
+
+    #sec-des{
+        padding: 20px;
+    }
+}
